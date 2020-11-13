@@ -1,12 +1,13 @@
 <style lang="scss">
 	@import 'global-stylesheet.scss';
 	main {
-		width: 340px;
+		max-width: 400px;
 		margin: 0 auto;
+		padding: 3px;
 		font-weight: 400;
 	}
 	.field {
-		font-size: 20px;
+		font-size: 16px;
 		font-weight: 600;
 	}
 	.amount {
@@ -21,8 +22,7 @@
 	}
 	.suggestion--interest {
 		display: flex;
-		width: 100%;
-		padding: 10px;
+		padding: 10px 0;
 		border-bottom: 1.5px solid #0000005d;
 
 		.suggestion--interest__container {
@@ -31,12 +31,12 @@
 			border-right: 3px solid #06213f;
 
 			.suggestion--interest__percentage {
-				font-size: 15px;
+				font-size: 18px;
 				font-weight: 600;
 			}
 			.suggestion--interest__value {
-				color: #24357a;
-				font-size: 25px;
+				color: #d4330b;
+				font-size: 27px;
 				font-weight: 600;
 				overflow-wrap: anywhere;
 			}
@@ -65,8 +65,8 @@
 		}
 		.clear {
 			position: absolute;
-			top: 17px;
-			right: 10px;
+			top: 25%;
+			right: 0;
 			font-size: 30px;
 			color: #ffbb0097;
 		}
